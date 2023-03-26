@@ -2,11 +2,13 @@
 ## Python script for dictionary attacks on websites login forms.
 
 # Usage:
-	## `cd website`
-	## `php -S localhost:8000 &`
-	## `cd cracker`
-	## `python cracker.py "http://localhost:8000/" "passes.txt" "username" "submit" "username?password?submit" "Username or password is invalid"`
-## Output:
+	`
+	cd website
+	php -S localhost:8000 &
+	cd cracker
+	python cracker.py "http://localhost:8000/" "passes.txt" "username" "submit" "username?password?submit" "Username or password is invalid"
+	`
+ # Output:
 	`
 	Data correctly loaded!
 	['superstronkpassword', 'toor', 'obsd', '12345678', 'password', '']
