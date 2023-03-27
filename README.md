@@ -4,7 +4,7 @@
 # Usage:
 	cd website
 	php -S localhost:8000 &
-	cd cracker
+	cd ../cracker
 	python cracker.py "http://localhost:8000/" "passes.txt" "username" "submit" "username?password?submit" "Username or password is invalid"
  # Output:
 	Data correctly loaded!
